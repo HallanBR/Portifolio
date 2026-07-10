@@ -1,6 +1,6 @@
 # Hallan | Hub de Insights de Dados
 
-Portfólio pessoal de **Hallan** — aspirante a Analista de Dados. O site apresenta minha trajetória, habilidades técnicas, projetos em desenvolvimento e canais de contato, com foco em Python, SQL e visualização de dados.
+Meu portfólio pessoal — aspirante a Analista de Dados. O site apresenta minha trajetória, habilidades técnicas, projetos em desenvolvimento e canais de contato, com foco em Python, SQL e visualização de dados.
 
 [![GitHub](https://img.shields.io/badge/GitHub-hallanbr-181717?style=flat&logo=github)](https://github.com/hallanbr)
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
@@ -68,13 +68,9 @@ Portifolio/
 ├── script.js           # Interatividade e animações
 ├── assets/
 │   └── images/
-│       └── hero.jpg    # Foto de perfil (opcional)
+│       └── hero.jpg    # Foto de perfil
 └── README.md
 ```
-
-> **Nota:** Se `assets/images/hero.jpg` não existir, o site exibe um placeholder automaticamente.
-
----
 
 ## Como executar localmente
 
