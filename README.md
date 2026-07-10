@@ -19,7 +19,7 @@ Atualmente estou em transição para a área de **Análise de Dados**, construin
 
 | Seção | Conteúdo |
 |-------|----------|
-| **Hero** | Apresentação, tags de tecnologia e links para GitHub, LinkedIn e contato |
+| **Inicio** | Apresentação, tags de tecnologia e links para GitHub, LinkedIn e contato |
 | **Sobre** | Perfil, paixão por tecnologia e foco em dados |
 | **Habilidades** | Stack em programação, dados e ferramentas |
 | **Jornada** | Linha do tempo da trilha de aprendizado (ADS → Python → SQL → ETL) |
