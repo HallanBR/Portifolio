@@ -75,9 +75,7 @@ Portifolio/
 
 Não há dependências para instalar. Basta abrir o projeto no navegador:
 
-```
-https://hallanbr.github.io/Portifolio/
-```
+[![Visitar Portfólio](https://img.shields.io/badge/Visitar-Portif%C3%B3lio-007ACC?style=for-the-badge&logo=google-chrome&logoColor=white)](https://HallanBR.github.io/Portifolio/)
 
 ---
 
