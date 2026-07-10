@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hallan | Hub de Insights de Dados</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page-shell">
+    <header class="topbar">
+      <a href="#top" class="brand">
+        <span class="brand-icon">H</span>
+        <span class="brand-name">Hallan</span>
+      </a>
+      <button class="mobile-menu-toggle" aria-label="Abrir navegação" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="nav-links">
+        <a href="#about" class="nav-link">Sobre</a>
+        <a href="#skills" class="nav-link">Habilidades</a>
+        <a href="#journey" class="nav-link">Jornada</a>
+        <a href="#projects" class="nav-link">Projetos</a>
+        <a href="#learning" class="nav-link">Aprendizado</a>
+        <a href="#contact" class="nav-link">Contato</a>
+      </nav>
+      <a href="#contact" class="button button-primary topbar-cta">Vamos conversar</a>
+    </header>
+
+    <main>
+      <section class="hero section" id="top">
+        <div class="hero-inner">
+          <div class="hero-grid">
+            <div class="hero-copy-block reveal">
+              <div class="hero-tagline glass">
+                <span class="hero-tagline-dot"></span>
+                Aberto a oportunidades
+              </div>
+              <h1><span class="text-gradient">Hallan</span></h1>
+              <p class="hero-subtitle">Aspirante a Analista de Dados</p>
+              <div class="hero-tech-tags">
+                <span class="glass">Python</span>
+                <span class="glass">SQL</span>
+                <span class="glass">Análise de Dados</span>
+                <span class="glass">ETL</span>
+                <span class="glass">Power BI</span>
+              </div>
+              <p class="hero-copy">Atualmente estou em transição para a área de Análise de Dados, construindo projetos práticos com Python, SQL e visualização de dados para desenvolver experiência no mundo real. Gosto de transformar dados em informações significativas e de melhorar continuamente minhas habilidades técnicas.</p>
+              <div class="hero-actions">
+                <a href="#contact" class="button button-primary">
+                  <span class="button-overlay"></span>
+                  Baixar currículo
+                </a>
+                <a href="https://github.com/hallanbr" target="_blank" rel="noreferrer" class="button button-secondary">GitHub</a>
+                <a href="https://linkedin.com" target="_blank" rel="noreferrer" class="button button-secondary">LinkedIn</a>
+                <a href="#contact" class="button button-secondary">Contato</a>
+              </div>
+            </div>
+            <div class="hero-card reveal reveal-delay-1">
+              <div class="hero-photo-card">
+                <img
+                  src="assets/images/hero.jpg"
+                  alt="Foto de perfil de Hallan"
+                  class="hero-photo-img"
+                  onerror="this.classList.add('hidden'); this.nextElementSibling.classList.remove('hidden-fallback')"
+                />
+                <div class="hero-photo-placeholder hidden-fallback" role="img" aria-label="Foto de perfil de Hallan"></div>
+                <div class="hero-photo-caption">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                  Building. Learning. Shipping.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section about-section" id="about">
+        <div class="section-header reveal">
+          <div class="section-title"><span class="section-hash">#</span> SOBRE</div>
+          <h2>Curioso, focado e <span class="text-gradient">construindo</span> toda semana.</h2>
+          <p class="section-copy">Estou entrando na área de Dados com propósito. Meu foco está nos fundamentos — Python, SQL e bancos de dados — e em aplicá-los com prática hands-on.</p>
+        </div>
+        <div class="grid about-grid">
+          <article class="glass-card feature-card-small reveal">
+            <h4>Paixão por tecnologia</h4>
+            <p>Naturalmente curioso sobre como as coisas funcionam por trás dos bastidores — de consultas a sistemas.</p>
+          </article>
+          <article class="glass-card feature-card-small reveal reveal-delay-1">
+            <h4>Aprendizado contínuo</h4>
+            <p>Estudo todos os dias para fechar lacunas e construir competência real, não apenas certificados.</p>
+          </article>
+          <article class="glass-card feature-card-small reveal reveal-delay-2">
+            <h4>Bancos de dados e SQL</h4>
+            <p>Modelando, consultando e raciocinando sobre estruturas de dados confiáveis.</p>
+          </article>
+          <article class="glass-card feature-card-small reveal reveal-delay-3">
+            <h4>Resolução de problemas com dados</h4>
+            <p>Transformando entradas confusas em respostas claras que suportam decisões.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section skills-section" id="skills">
+        <div class="section-header reveal">
+          <div class="section-title"><span class="section-hash">#</span> HABILIDADES</div>
+          <h2>A stack que estou <span class="text-gradient">aprimorando.</span></h2>
+          <p class="section-copy">Primeiro os fundamentos. Mantenho a lista honesta — o que está sólido e o que estou aprendendo ativamente.</p>
+        </div>
+        <div class="grid skill-columns">
+          <div class="glass-card skill-column reveal">
+            <div class="card-header"><span class="icon-circle">&lt;/&gt;</span><h3>Programação</h3></div>
+            <ul>
+              <li>Python</li>
+              <li>SQL</li>
+              <li>Java</li>
+              <li>JavaScript</li>
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+          </div>
+          <div class="glass-card skill-column reveal reveal-delay-1">
+            <div class="card-header"><span class="icon-circle">▭</span><h3>Dados</h3></div>
+            <ul>
+              <li>SQLite</li>
+              <li>PostgreSQL</li>
+              <li class="learning-item"><span>ETL</span><span class="learning-badge">Aprendendo</span></li>
+              <li class="learning-item"><span>Power BI</span><span class="learning-badge">Aprendendo</span></li>
+              <li class="learning-item"><span>Estatística</span><span class="learning-badge">Aprendendo</span></li>
+            </ul>
+          </div>
+          <div class="glass-card skill-column reveal reveal-delay-2">
+            <div class="card-header"><span class="icon-circle">🔧</span><h3>Ferramentas</h3></div>
+            <ul>
+              <li>Git</li>
+              <li>GitHub</li>
+              <li>VS Code</li>
+              <li>Excel</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section journey-section" id="journey">
+        <div class="section-header reveal">
+          <div class="section-title"><span class="section-hash">#</span> JORNADA</div>
+          <h2>Trilha de aprendizado, <span class="text-gradient">aberta.</span></h2>
+          <p class="section-copy">Uma linha do tempo transparente do que já estudei, do que estou construindo e do que vem a seguir.</p>
+        </div>
+        <div class="timeline">
+          <div class="timeline-line" aria-hidden="true"></div>
+          <article class="timeline-card left-card reveal">
+            <span class="timeline-number">01</span>
+            <h4>ADS</h4>
+            <p>Análise e Desenvolvimento de Sistemas — minha base em software e computação.</p>
+          </article>
+          <article class="timeline-card right-card reveal">
+            <span class="timeline-number">02</span>
+            <h4>Python</h4>
+            <p>Scripts, estruturas de dados e a linguagem que uso diariamente.</p>
+          </article>
+          <article class="timeline-card left-card reveal">
+            <span class="timeline-number">03</span>
+            <h4>SQL</h4>
+            <p>Consultas, junções, agregações — a linguagem dos dados.</p>
+          </article>
+          <article class="timeline-card right-card reveal">
+            <span class="timeline-number">04</span>
+            <h4>Bancos de dados</h4>
+            <p>Modelagem e pensamento relacional com SQLite e PostgreSQL.</p>
+          </article>
+          <article class="timeline-card left-card reveal">
+            <span class="timeline-number">05</span>
+            <h4>Estatística</h4>
+            <p>Distribuições, variância, correlação — lendo dados com honestidade.</p>
+          </article>
+          <article class="timeline-card right-card reveal">
+            <span class="timeline-number">06</span>
+            <h4>Power BI</h4>
+            <p>Transformando modelos em dashboards que as pessoas realmente usam.</p>
+          </article>
+          <article class="timeline-card left-card reveal">
+            <span class="timeline-number">07</span>
+            <h4>ETL</h4>
+            <p>Criando pipelines confiáveis de fontes brutas a resultados limpos.</p>
+          </article>
+          <article class="timeline-card right-card reveal">
+            <span class="timeline-number">08</span>
+            <h4>Construindo projetos práticos</h4>
+            <p>Aplicando tudo em datasets reais, de ponta a ponta.</p>
+          </article>
+          <article class="timeline-card left-card reveal">
+            <span class="timeline-number">09</span>
+            <h4>Buscando minha primeira oportunidade em Análise de Dados</h4>
+            <p>Pronto para contribuir, aprender no trabalho e crescer com um time.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section projects-section" id="projects">
+        <div class="section-header reveal">
+          <div class="section-title"><span class="section-hash">#</span> PROJETOS</div>
+          <h2>Projetos em <span class="text-gradient">desenvolvimento</span></h2>
+          <p class="section-copy">Atualmente estou desenvolvendo projetos práticos com foco em Análise de Dados e Engenharia de Dados. Esta seção em breve exibirá estudos de caso completos, documentação e código open-source.</p>
+          <a href="https://github.com/hallanbr" target="_blank" rel="noreferrer" class="button button-primary projects-cta">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+            Visite meu GitHub
+          </a>
+        </div>
+
+        <div class="grid cards-grid">
+          <article class="glass-card project-card reveal">
+            <span class="chip"><span class="chip-dot"></span> EM BREVE</span>
+            <h3>01</h3>
+            <p>Estudo de caso em preparação</p>
+          </article>
+          <article class="glass-card project-card reveal reveal-delay-1">
+            <span class="chip"><span class="chip-dot"></span> EM BREVE</span>
+            <h3>02</h3>
+            <p>Estudo de caso em preparação</p>
+          </article>
+          <article class="glass-card project-card reveal reveal-delay-2">
+            <span class="chip"><span class="chip-dot"></span> EM BREVE</span>
+            <h3>03</h3>
+            <p>Estudo de caso em preparação</p>
+          </article>
+          <article class="glass-card project-card reveal">
+            <span class="chip"><span class="chip-dot"></span> EM BREVE</span>
+            <h3>04</h3>
+            <p>Estudo de caso em preparação</p>
+          </article>
+          <article class="glass-card project-card reveal reveal-delay-1">
+            <span class="chip"><span class="chip-dot"></span> EM BREVE</span>
+            <h3>05</h3>
+            <p>Estudo de caso em preparação</p>
+          </article>
+          <article class="glass-card project-card reveal reveal-delay-2">
+            <span class="chip"><span class="chip-dot"></span> EM BREVE</span>
+            <h3>06</h3>
+            <p>Estudo de caso em preparação</p>
+          </article>
+        </div>
+
+        <article class="glass-card built-public reveal">
+          <div class="built-public-icon">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+          </div>
+          <div class="built-public-copy">
+            <h3>Construído em público.</h3>
+            <p>Cada projeto que construo está disponível publicamente e totalmente documentado.</p>
+          </div>
+          <a href="https://github.com/hallanbr" target="_blank" rel="noreferrer" class="button button-secondary built-public-btn">
+            Explorar no GitHub ↗
+          </a>
+        </article>
+      </section>
+
+      <section class="section learning-section" id="learning">
+        <div class="section-header reveal">
+          <div class="section-title"><span class="section-hash">#</span> APRENDIZADO ATUAL</div>
+          <h2>O que está na minha mesa <span class="text-gradient">agora.</span></h2>
+        </div>
+        <div class="grid learning-grid">
+          <article class="glass-card learning-card reveal">
+            <span class="learning-icon">⌨</span>
+            <div><h4>Python</h4><span class="learning-status">Em progresso</span></div>
+          </article>
+          <article class="glass-card learning-card reveal reveal-delay-1">
+            <span class="learning-icon">▭</span>
+            <div><h4>SQL</h4><span class="learning-status">Em progresso</span></div>
+          </article>
+          <article class="glass-card learning-card reveal reveal-delay-2">
+            <span class="learning-icon">📊</span>
+            <div><h4>Power BI</h4><span class="learning-status">Em progresso</span></div>
+          </article>
+          <article class="glass-card learning-card reveal">
+            <span class="learning-icon">Σ</span>
+            <div><h4>Estatística</h4><span class="learning-status">Em progresso</span></div>
+          </article>
+          <article class="glass-card learning-card reveal reveal-delay-1">
+            <span class="learning-icon">⬡</span>
+            <div><h4>Modelagem de Dados</h4><span class="learning-status">Em progresso</span></div>
+          </article>
+          <article class="glass-card learning-card reveal reveal-delay-2">
+            <span class="learning-icon">🗄</span>
+            <div><h4>Bancos de dados</h4><span class="learning-status">Em progresso</span></div>
+          </article>
+          <article class="glass-card learning-card reveal">
+            <span class="learning-icon">⇄</span>
+            <div><h4>ETL</h4><span class="learning-status">Em progresso</span></div>
+          </article>
+          <article class="glass-card learning-card reveal reveal-delay-1">
+            <span class="learning-icon">📋</span>
+            <div><h4>Excel</h4><span class="learning-status">Em progresso</span></div>
+          </article>
+          <article class="glass-card learning-card reveal reveal-delay-2">
+            <span class="learning-icon">⑂</span>
+            <div><h4>Git</h4><span class="learning-status">Em progresso</span></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact">
+        <div class="section-header reveal">
+          <div class="section-title"><span class="section-hash">#</span> CONTATO</div>
+          <h2>Vamos construir algo com <span class="text-gradient">dados.</span></h2>
+          <p class="section-copy">Aberto a estágios, vagas juniores e projetos colaborativos em Análise de Dados.</p>
+        </div>
+        <div class="grid contact-grid">
+          <a href="mailto:hallan@example.com" class="glass-card contact-card reveal">
+            <span class="contact-icon">✉️</span>
+            <span class="contact-label">E-mail</span>
+            <p>hallan@example.com</p>
+            <span class="contact-arrow">↗</span>
+          </a>
+          <a href="https://github.com/hallanbr" target="_blank" rel="noreferrer" class="glass-card contact-card reveal reveal-delay-1">
+            <span class="contact-icon">🐙</span>
+            <span class="contact-label">GitHub</span>
+            <p>github.com/hallanbr</p>
+            <span class="contact-arrow">↗</span>
+          </a>
+          <a href="https://linkedin.com" target="_blank" rel="noreferrer" class="glass-card contact-card reveal reveal-delay-2">
+            <span class="contact-icon">🔗</span>
+            <span class="contact-label">LinkedIn</span>
+            <p>linkedin.com/in/hallan</p>
+            <span class="contact-arrow">↗</span>
+          </a>
+          <div class="glass-card contact-card reveal reveal-delay-3">
+            <span class="contact-icon">📍</span>
+            <span class="contact-label">Localização</span>
+            <p>Disponível remotamente</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© 2026 Hallan. Feito com cuidado.</p>
+      <p class="footer-tag"><span class="footer-dot"></span> Aspirante a Analista de Dados — Aberto a oportunidades</p>
+    </footer>
+  </div>
+
+  <button class="back-to-top" aria-label="Voltar ao topo">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 15l-6-6-6 6"/></svg>
+  </button>
+
+  <div class="cursor cursor-dot"></div>
+  <div class="cursor cursor-outline"></div>
+  <script src="script.js"></script>
+</body>
+</html>
