@@ -36,8 +36,7 @@ Atualmente estou em transição para a área de **Análise de Dados**, construin
 - HTML5 semântico
 - CSS3 (variáveis CSS, Grid, Flexbox, glassmorphism, animações)
 - JavaScript vanilla (ES6+)
-- Google Fonts — [Inter](https://fonts.google.com/specimen/Inter)
-
+- 
 **Áreas de foco apresentadas no portfólio**
 
 - Python · SQL · SQLite · PostgreSQL
