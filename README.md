@@ -75,30 +75,6 @@ Portifolio/
 
 Não há dependências para instalar. Basta abrir o projeto no navegador:
 
-```bash
-# Clone o repositório
-git clone https://github.com/HallanBR/Portifolio.git
-cd Portifolio
-
-# Opção 1 — abrir diretamente
-# Abra index.html no navegador
-
-# Opção 2 — servidor local (recomendado)
-npx serve .
-# ou
-python -m http.server 8000
-```
-
-Acesse `http://localhost:8000` (ou a porta indicada pelo servidor).
-
----
-
-## Deploy no GitHub Pages
-
-1. No repositório, vá em **Settings → Pages**
-2. Em **Source**, selecione a branch `main` e a pasta `/ (root)`
-3. Salve — o site ficará disponível em:
-
 ```
 https://hallanbr.github.io/Portifolio/
 ```
@@ -121,7 +97,7 @@ https://hallanbr.github.io/Portifolio/
 
 - **GitHub:** [github.com/hallanbr](https://github.com/hallanbr)
 - **LinkedIn:** [linkedin.com/in/hallan](https://linkedin.com)
-- **E-mail:** hallan@example.com
+- **E-mail:** hallansousa1@gmail.com
 
 Aberto a estágios, vagas juniores e projetos colaborativos em Análise de Dados.
 
