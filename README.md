@@ -2,7 +2,7 @@
 
 Meu portfólio pessoal — aspirante a Analista de Dados. O site apresenta minha trajetória, habilidades técnicas, projetos em desenvolvimento e canais de contato, com foco em Python, SQL e visualização de dados.
 
-[![GitHub](https://img.shields.io/badge/GitHub-hallanbr-181717?style=flat&logo=github)](https://github.com/hallanbr)
+[![GitHub](https://img.shields.io/badge/GitHub-HallanBR-181717?style=flat&logo=github)](https://github.com/HallanBR)
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
@@ -93,11 +93,13 @@ https://hallanbr.github.io/Portifolio/
 
 ---
 
+
 ## Contato
 
-- **GitHub:** [github.com/hallanbr](https://github.com/hallanbr)
-- **LinkedIn:** [linkedin.com/in/hallan](https://linkedin.com)
-- **E-mail:** hallansousa1@gmail.com
+- **GitHub:** [github.com/HallanBR](https://github.com/HallanBR)
+- **LinkedIn:** [linkedin.com/in/hallan-sousa2000](https://www.linkedin.com/in/hallan-sousa2000/)
+- **E-mail:** [Hallansousa1@gmail.com](mailto:Hallansousa1@gmail.com)
+- **Localização:** MG - Brasil
 
 Aberto a estágios, vagas juniores e projetos colaborativos em Análise de Dados.
 
@@ -110,5 +112,5 @@ Este projeto é de uso pessoal. Sinta-se à vontade para usar como referência, 
 ---
 
 <p align="center">
-  Feito com cuidado por <a href="https://github.com/hallanbr">Hallan</a> · © 2026
+  Feito com cuidado por <a href="https://github.com/HallanBR">Hallan</a> · © 2026
 </p>
