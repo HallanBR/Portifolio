@@ -806,6 +806,115 @@ body::before {
   font-size: 0.88rem;
 }
 
+.project-card-featured {
+  padding: 0;
+  overflow: hidden;
+  grid-column: span 2;
+  background: linear-gradient(145deg, rgba(12, 23, 42, 0.98), rgba(8, 14, 27, 0.92));
+}
+
+.project-preview {
+  position: relative;
+  display: block;
+  aspect-ratio: 16 / 8;
+  overflow: hidden;
+  border-bottom: 1px solid var(--border);
+}
+
+.project-preview img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: top;
+  transition: transform 0.45s ease, filter 0.45s ease;
+}
+
+.project-preview-overlay {
+  position: absolute;
+  inset: auto 1rem 1rem auto;
+  padding: 0.55rem 0.8rem;
+  border-radius: 10px;
+  background: rgba(2, 15, 30, 0.88);
+  border: 1px solid rgba(109, 227, 255, 0.25);
+  color: #9aecff;
+  font-size: 0.76rem;
+  font-weight: 600;
+  backdrop-filter: blur(10px);
+}
+
+.project-preview:hover img {
+  transform: scale(1.025);
+  filter: brightness(1.08);
+}
+
+.project-card-content {
+  display: grid;
+  gap: 1rem;
+  padding: 1.5rem 1.7rem 1.7rem;
+}
+
+.project-card-topline {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.project-card-featured h3 {
+  margin: 0;
+  color: #f4f8ff;
+  font-size: 1.35rem;
+  line-height: 1.25;
+}
+
+.project-card-featured p {
+  max-width: 640px;
+  line-height: 1.65;
+}
+
+.project-number {
+  color: rgba(255, 255, 255, 0.12);
+  font-size: 1.8rem;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.chip-live {
+  color: #7ef5bd;
+}
+
+.chip-live .chip-dot {
+  background: #55e6a5;
+  box-shadow: 0 0 8px rgba(85, 230, 165, 0.65);
+}
+
+.project-tags,
+.project-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+}
+
+.project-tags span {
+  padding: 0.35rem 0.65rem;
+  border-radius: 999px;
+  background: rgba(38, 200, 255, 0.08);
+  border: 1px solid rgba(99, 208, 255, 0.13);
+  color: #94def7;
+  font-size: 0.72rem;
+}
+
+.project-actions {
+  margin-top: 0.2rem;
+}
+
+.project-actions .button {
+  min-height: 40px;
+  padding: 0.65rem 1rem;
+  font-size: 0.8rem;
+}
+
 .chip {
   display: inline-flex;
   align-items: center;
@@ -1111,6 +1220,10 @@ body::before {
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .project-card-featured {
+    grid-column: span 2;
+  }
+
   .learning-grid {
     grid-template-columns: repeat(2, 1fr);
   }
@@ -1173,6 +1286,14 @@ body::before {
   .cards-grid,
   .learning-grid {
     grid-template-columns: 1fr;
+  }
+
+  .project-card-featured {
+    grid-column: auto;
+  }
+
+  .project-preview {
+    aspect-ratio: 16 / 10;
   }
 
   .contact-grid {
