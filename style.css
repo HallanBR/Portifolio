@@ -1362,3 +1362,77 @@ body::before {
     transform: none;
   }
 }
+/* Correção do overflow dos cards no mobile */
+html,
+body,
+.page-shell {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.hero,
+.hero-inner,
+.hero-grid,
+.hero-copy-block,
+.hero-actions,
+.hero-card {
+  min-width: 0;
+  max-width: 100%;
+}
+
+.hero-inner {
+  width: 100%;
+}
+
+.hero-actions {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  width: 100%;
+  max-width: 580px;
+  gap: 0.75rem;
+}
+
+.hero-actions .button {
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
+  white-space: normal;
+  text-align: center;
+}
+
+.hero-photo-card,
+.hero-photo-img {
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
+}
+
+@media (max-width: 640px) {
+  .hero {
+    overflow: hidden;
+  }
+
+  .hero-inner,
+  .hero-copy-block,
+  .hero-actions {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .hero-actions {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  /* Sobrescreve a regra antiga que força tamanho mínimo */
+  .hero-actions .button {
+    flex: none;
+    min-width: 0;
+  }
+}
+
+@media (max-width: 340px) {
+  .hero-actions {
+    grid-template-columns: 1fr;
+  }
+}
